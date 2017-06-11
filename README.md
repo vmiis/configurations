@@ -1,3 +1,3 @@
-# configurations
+# Configurations
 
-Applications and control panels structure
+Application and control panel structures
