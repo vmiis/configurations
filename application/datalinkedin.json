@@ -17,7 +17,7 @@
 	"panels":
 	{
 		"main":{
-			"config_url":"https://vmiis.github.io/business-portal/config/business_portal.json"
+			"config_url":"https://vmiis.github.io/configurations/control_panel/business_portal.json"
 		}
 	}
 }
