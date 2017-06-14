@@ -1,0 +1,18 @@
+{
+	"library_path":"https://cbs.wappsystem.com/dev/github",
+	"api_path":"https://cbs.wappsystem.com/dev/",
+	"server":"development",
+	"modules":
+	{
+		"home":
+		{
+			"url":"https://vmiis.github.io/modules/home/home.html"
+		}
+	},
+	"panels":
+	{
+		"main":{
+			"config_url":"https://vmiis.github.io/configurations/control_panel/room_booking.json"
+		}
+	}
+}
