@@ -9,7 +9,7 @@
 	{
 		"main_panel" :
 		{
-		"url":"https://vmiis.github.io/modules/panels/main.html",
+		"url":"https://vmiis.github.io/modules/P/panels/main.html",
 		"name":"Car Booking",
 		"columns":
 		[
@@ -24,19 +24,19 @@
 								"module_id":"monthly",
 								"name":"Car booking monthly calendar",
 								"table_id":"20000908",
-								"url":"https://vmiis.github.io/modules/car_booking/monthly.html"
+								"url":"https://vmiis.github.io/modules/C/car_booking/monthly.html"
 							},
 							{
 								"module_id":"weekly",
 								"name":"Car booking weekly calendar",
 								"table_id":"20000908",
-								"url":"https://vmiis.github.io/modules/car_booking/weekly.html"
+								"url":"https://vmiis.github.io/modules/C/car_booking/weekly.html"
 							},
 							{
 								"module_id":"daily",
 								"name":"Car booking daily calendar",
 								"table_id":"20000908",
-								"url":"https://vmiis.github.io/modules/car_booking/daily.html"
+								"url":"https://vmiis.github.io/modules/C/car_booking/daily.html"
 							}
 						]
 					},
@@ -48,7 +48,7 @@
 								"module_id":"booking_record",
 								"name":"Car booking records",
 								"table_id":"20000908",
-								"url":"https://vmiis.github.io/modules/car_booking/booking_record.html"
+								"url":"https://vmiis.github.io/modules/C/car_booking/booking_record.html"
 							}
 						]
 					},
@@ -60,7 +60,7 @@
 								"module_id":"car",
 								"name":"Add/Remove cars",
 								"table_id":"20000906",
-								"url":"https://vmiis.github.io/modules/car_booking/car.html"
+								"url":"https://vmiis.github.io/modules/C/car_booking/car.html"
 							}
 						]
 					}
