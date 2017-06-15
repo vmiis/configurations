@@ -1,7 +1,7 @@
 {
 	"library_path":"https://cbs.wappsystem.com/dev/github",
 	"parts_path":"https://vmiis.github.io/paths",
-	"image_path":"http://image.datalinkedin.com",
+	"image_path":"https://image.datalinkedin.com",
 	"api_path":"https://cbs.wappsystem.com/dev/",
 	"server":"development",
 	"modules":
