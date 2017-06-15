@@ -1,6 +1,6 @@
 {
-	"hosting_path":"//www.datalinkedin.com",
-	"library_path":"https://cbs.wappsystem.com/dev/github",
+	"library_path":"http://vmiis.github.io/paths",
+	"image_path":"http://image.datalinkedin.com",
 	"api_path":"https://cbs.wappsystem.com/dev/",
 	"server":"development",
 	"modules":
