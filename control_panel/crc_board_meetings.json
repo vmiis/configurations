@@ -1,0 +1,62 @@
+{
+	"name":"Board Meetings",
+	"url":"https://vmiis.github.io/modules/panels/panel.1.html",
+	"var" :
+	{
+	},
+	"panel" :
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name" : "Participants",
+						"tasks" :
+						[
+							{
+							   "module_id" : "wappsystem_crc_backoffice_board_agenda",
+							   "name" : "Agendas with attachments",
+							   "table_id" : "20000466",
+							   "url" : "https://cbs.wappsystem.com/pro/github/wappsystem/crc-backoffice/modules/board/agendas_nav.html",
+							   "counting":"1"
+							}
+							,{
+							   "module_id" : "wappsystem_crc_backoffice_board_agendas",
+							   "table_id" : "20000455",
+							   "url" : "https://cbs.wappsystem.com/pro/github/wappsystem/crc-backoffice/modules/board/agenda.html"
+							}
+						]
+					}
+					,{
+						"name" : "Setup",
+						"tasks" :
+						[
+							{
+								"module_id" : "wappsystem_crc_backoffice_board_construct_agenda",
+								"name" : "Construct Agendas",
+								"table_id" : "20000466",
+								"url" : "https://cbs.wappsystem.com/pro/github/wappsystem/crc-backoffice/modules/board/construct_agenda.html",
+								"counting":"1"
+							}
+							,{
+								"module_id" : "wappsystem_crc_backoffice_board_construct_agenda_items",
+								"table_id" : "20000455",
+								"url" : "https://cbs.wappsystem.com/pro/github/wappsystem/crc-backoffice/modules/board/agenda_items.html",
+								"action_type":"20000456"
+							}
+							,{
+								"module_id" : "wappsystem_crc_backoffice_board_action_type",
+								"name" : "Action Type",
+								"table_id" : "20000456",
+								"url" : "https://cbs.wappsystem.com/pro/github/wappsystem/crc-backoffice/modules/board/action_type.html",
+								"counting":"1"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

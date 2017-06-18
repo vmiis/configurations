@@ -1,0 +1,68 @@
+{
+	"name":"Staff Management",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name":"Staff management",
+						"tasks":
+						[
+							{
+								"module_id":"staff",
+								"name":"Staff",
+								"table_id":"20009675",
+								"url":"https://vmiis.github.io/modules/staff_management/staff.html",
+								"counting":"1"
+							},
+							{
+								"module_id":"phone_and_room",
+								"name":"Staff's phone and room number",
+								"table_id":"20009675",
+								"url":"https://vmiis.github.io/modules/staff_management/staff_phone_and_room.html"
+							},
+							{
+								"module_id":"private_info",
+								"name":"Staff private info",
+								"table_id":"20009683",
+								"url":"https://vmiis.github.io/modules/staff_management/private_info.html",
+								"counting":"1"
+							},
+							{
+								"module_id":"personal_documents",
+								"name":"Staff personal documents",
+								"table_id":"20009684",
+								"url":"https://vmiis.github.io/modules/staff_management/personal_document.html",
+								"counting":"1"
+							},
+							{
+								"module_id":"emergency_contacts",
+								"name":"Staff emergency contacts",
+								"table_id":"20009685",
+								"url":"https://vmiis.github.io/modules/staff_management/emergency_contact.html",
+								"counting":"1"
+							}
+						]
+					},
+					{
+						"name":"Setup",
+						"tasks":
+						[
+							{
+								"module_id":"department",
+								"name":"Departments",
+								"table_id":"20009682",
+								"url":"https://vmiis.github.io/modules/staff_management/department.html",
+								"counting":"1"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
