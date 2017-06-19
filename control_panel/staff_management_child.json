@@ -1,5 +1,5 @@
 {
-	"name":"Staff Management",
+	"name":"staff name",
 	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
 	"panel":
 	{
@@ -9,55 +9,35 @@
 				"sections":
 				[
 					{
-						"name":"Staff management",
+						"name":"Staff's records",
 						"tasks":
 						[
 							{
-								"module_id":"staff",
-								"name":"Staff",
+								"module_id":"child_staff",
+								"name":"Public information",
 								"table_id":"20009675",
 								"url":"https://vmiis.github.io/modules/staff_management/staff.html",
-								"counting":"1"
+								"single_record":"1"
 							},
 							{
-								"module_id":"phone_and_room",
-								"name":"Staff's phone and room number",
-								"table_id":"20009675",
-								"url":"https://vmiis.github.io/modules/staff_management/staff_phone_and_room.html"
-							},
-							{
-								"module_id":"private_info",
-								"name":"Staff private info",
+								"module_id":"child_private_info",
+								"name":"Private information",
 								"table_id":"20009683",
 								"url":"https://vmiis.github.io/modules/staff_management/private_info.html",
-								"counting":"1"
+								"single_record":"1"
 							},
 							{
-								"module_id":"personal_documents",
-								"name":"Staff personal documents",
+								"module_id":"child_personal_documents",
+								"name":"Personal documents",
 								"table_id":"20009684",
-								"url":"https://vmiis.github.io/modules/staff_management/personal_document.html",
-								"counting":"1"
+								"url":"https://vmiis.github.io/modules/staff_management/personal_document.html"
 							},
 							{
-								"module_id":"emergency_contacts",
-								"name":"Staff emergency contacts",
+								"module_id":"child_emergency_contacts",
+								"name":"Emergency contacts",
 								"table_id":"20009685",
 								"url":"https://vmiis.github.io/modules/staff_management/emergency_contact.html",
-								"counting":"1"
-							}
-						]
-					},
-					{
-						"name":"Setup",
-						"tasks":
-						[
-							{
-								"module_id":"department",
-								"name":"Departments",
-								"table_id":"20009682",
-								"url":"https://vmiis.github.io/modules/staff_management/department.html",
-								"counting":"1"
+								"single_record":"1"
 							}
 						]
 					}

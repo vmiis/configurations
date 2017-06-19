@@ -1,6 +1,9 @@
 {
 	"name":"Staff Management",
 	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+		"child_configuration_url":"https://vmiis.github.io/configurations/control_panel/staff_management_child.json"
+	},
 	"panel":
 	{
 		"columns":
