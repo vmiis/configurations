@@ -10,34 +10,42 @@
 				[
 					{
 						"name":"Staff's records",
-						"tasks":
+						"modules":
 						[
 							{
-								"module_id":"child_staff",
+								"module_id":"staff",
 								"name":"Public information",
 								"table_id":"20009675",
 								"url":"https://vmiis.github.io/modules/staff_management/staff.html",
-								"single_record":"1"
+								"single_record":"1",
+								"child":"1"
 							},
 							{
-								"module_id":"child_private_info",
+								"module_id":"private_info",
 								"name":"Private information",
 								"table_id":"20009683",
 								"url":"https://vmiis.github.io/modules/staff_management/private_info.html",
-								"single_record":"1"
+								"single_record":"1",
+								"child":"1"
 							},
 							{
-								"module_id":"child_personal_documents",
+								"module_id":"personal_documents",
 								"name":"Personal documents",
 								"table_id":"20009684",
-								"url":"https://vmiis.github.io/modules/staff_management/personal_document.html"
+								"url":"https://vmiis.github.io/modules/staff_management/personal_document.html",
+								"child":"1"
 							},
 							{
-								"module_id":"child_emergency_contacts",
+								"module_id":"emergency_contacts",
 								"name":"Emergency contacts",
 								"table_id":"20009685",
 								"url":"https://vmiis.github.io/modules/staff_management/emergency_contact.html",
-								"single_record":"1"
+								"single_record":"1",
+								"child":"1"
+							},
+							{
+								"module_id":"department",
+								"table_id":"20009682"
 							}
 						]
 					}
