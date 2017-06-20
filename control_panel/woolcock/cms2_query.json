@@ -1,0 +1,30 @@
+{
+	"name":"CMS2 Queries",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+	},
+	"no_counting":"1",
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name":"Queries",
+						"modules":
+						[
+							{
+								"module_id":"staff",
+								"name":"Study and Staff",
+								"table_id":"400448",
+								"url":"https://vmiis.github.io/modules/woolcock/cms2_query/sleep_study_statistics.html"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

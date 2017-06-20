@@ -13,7 +13,7 @@
 				[
 					{
 						"name" : "Participants",
-						"tasks" :
+						"modules" :
 						[
 							{
 							   "module_id" : "wappsystem_crc_backoffice_board_agenda",
@@ -31,7 +31,7 @@
 					}
 					,{
 						"name" : "Setup",
-						"tasks" :
+						"modules" :
 						[
 							{
 								"module_id" : "wappsystem_crc_backoffice_board_construct_agenda",
