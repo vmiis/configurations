@@ -1,16 +1,10 @@
 {
-	"parameters" :
-	{
-		"daily":"daily",
-		"car":"car",
-		"booking_record":"booking_record"
+	"name":"Car Booking",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
 	},
-	"panels" :
+	"panel":
 	{
-		"main_panel" :
-		{
-		"url":"https://vmiis.github.io/modules/panels/main.html",
-		"name":"Car Booking",
 		"columns":
 		[
 			{
@@ -18,7 +12,7 @@
 				[
 					{
 						"name":"Calendar",
-						"tasks":
+						"modules":
 						[
 							{
 								"module_id":"monthly",
@@ -39,34 +33,35 @@
 								"url":"https://vmiis.github.io/modules/car_booking/daily.html"
 							}
 						]
-					},
-					{
+					}
+					,{
 						"name":"Booking records",
-						"tasks":
+						"modules":
 						[
 							{
 								"module_id":"booking_record",
 								"name":"Car booking records",
 								"table_id":"20000908",
-								"url":"https://vmiis.github.io/modules/car_booking/booking_record.html"
+								"url":"https://vmiis.github.io/modules/car_booking/booking_record.html",
+								"counting":"1"
 							}
 						]
-					},
-					{
+					}
+					,{
 						"name":"Setup",
-						"tasks":
+						"modules":
 						[
 							{
 								"module_id":"car",
 								"name":"Add/Remove cars",
 								"table_id":"20000906",
-								"url":"https://vmiis.github.io/modules/car_booking/car.html"
+								"url":"https://vmiis.github.io/modules/car_booking/car.html",
+								"counting":"1"
 							}
 						]
 					}
 				]
 			}
 		]
-	}
 	}
 }

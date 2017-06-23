@@ -1,0 +1,67 @@
+{
+	"name":"Room Booking",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name":"Calendar",
+						"modules":
+						[
+							{
+								"module_id":"monthly",
+								"name":"Room booking monthly calendar",
+								"table_id":"20003813",
+								"url":"https://vmiis.github.io/modules/room_booking/monthly.html"
+							},
+							{
+								"module_id":"weekly",
+								"name":"Room booking weekly calendar",
+								"table_id":"20003813",
+								"url":"https://vmiis.github.io/modules/room_booking/weekly.html"
+							},
+							{
+								"module_id":"daily",
+								"name":"Room booking daily calendar",
+								"table_id":"20003813",
+								"url":"https://vmiis.github.io/modules/room_booking/daily.html"
+							}
+						]
+					}
+					,{
+						"name":"Booking records",
+						"modules":
+						[
+							{
+								"module_id":"booking_record",
+								"name":"Room booking records",
+								"table_id":"20003813",
+								"url":"https://vmiis.github.io/modules/room_booking/booking_record.html",
+								"counting":"1"
+							}
+						]
+					}
+					,{
+						"name":"Setup",
+						"modules":
+						[
+							{
+								"module_id":"room",
+								"name":"Add/Remove rooms",
+								"table_id":"20003812",
+								"url":"https://vmiis.github.io/modules/room_booking/room.html",
+								"counting":"1"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"name":"Moderate Trial",
+	"url":"https://vmiis.github.io/modules/panels/panel.1.html",
+	"var" :
+	{
+		"app_id":"woolcock_moderate_trial_",
+        "participant_tid":"20008522",
+        "clinical_trials_notes_tid":"20008525",
+        "site_filter_tid":"",
+        "login_setup_tid":"20008523",
+        "sql_participant":"@('Study_ID')",
+        "booking_record_module":  	"woolcock_moderate_trial_booking_record",
+        "booking_daily_module":   	"woolcock_moderate_trial_daily",
+        "booking_weekly_module":  	"woolcock_moderate_trial_weekly",
+        "booking_monthly_module": 	"woolcock_moderate_trial_monthly",
+        "participant_login_setup":  "woolcock_moderate_trial_participant_login_setup",
+        "data_entry_by_staff":      "woolcock_moderate_trial_data_entry_by_staff",
+        "data_entry_by_participant":"woolcock_moderate_trial_data_entry_by_participant"
+	},
+	"panel" :
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name" : "Participants",
+						"modules" :
+						[
+							{
+							   "module_id" : "participant",
+							   "name" : "Participants",
+							   "table_id" : "20008522",
+							   "url" : "https://rt.woolcock.org.au/github/vmiis/module-library/clinical_trials/participant/participant_with_study_id.html",
+							   "counting":"1"
+							}
+						]
+					}
+					,{
+						"name" : "Notes",
+						"modules" :
+						[
+							{
+							   "module_id" : "notes",
+							   "name" : "All Task Notes",
+							   "table_id" : "20008525",
+							   "url" : "https://rt.woolcock.org.au/github/vmiis/module-library/clinical_trials/task_notes/notes.html",
+							   "counting":"1"
+							}
+						]
+					}
+					,{
+						"name" : "",
+						"modules" :
+						[
+							{
+							   "module_id" : "woolcock_moderate_trial_data_entry_by_staff",
+							   "url" : "https://rt.woolcock.org.au/github/woolcock-imr/Moderate-Trial/modules/control_panels/data_entry_by_staff.html"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
