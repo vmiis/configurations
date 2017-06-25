@@ -1,0 +1,74 @@
+{
+	"name":"RT-EDC Clinical Trials Child",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+		"sql_participant" : "@('Study_ID')"
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections" :
+				[
+					{
+						"name" : "General",
+						"modules" :
+						[
+							{
+								"module_id" : "File_Notes",
+								"name" : "File Notes",
+								"table_id" : "20009733",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/file_notes.html",
+								"child":"1",
+								"single_record":"1",
+								"counting":"1"
+							}
+						]
+					},
+					{
+						"name" : "Adverse Event & Concom",
+						"modules" :
+						[
+							{
+								"module_id" : "Adverse_Event",
+								"name" : "Adverse Event",
+								"table_id" : "20009731",
+								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"child":"1",
+								"counting":"1"
+							},
+							{
+								"module_id" : "Concomitant_Medication",
+								"name" : "Concomitant Medication",
+								"table_id" : "20009732",
+								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"child":"1",
+								"counting":"1"
+							}
+						]
+					}
+			   ]
+			}
+			,{
+				"sections":
+				[
+					{
+						"modules":
+						[
+							{
+								"module_id" : "participant",
+								"table_id" : "20009726"
+							}
+							,{
+								"module_id" : "task_notes",
+								"table_id" : "20009727",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task_notes.html"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

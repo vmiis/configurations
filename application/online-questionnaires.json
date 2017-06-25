@@ -1,0 +1,18 @@
+{
+	"library_path":"https://cbs.wappsystem.com/dev/github",
+	"parts_path":"https://vmiis.github.io/paths",
+	"image_path":"https://image.datalinkedin.com",
+	"api_path":"https://cbs.wappsystem.com/dev/",
+	"server":"development",
+	"modules":
+	{
+		"signin":
+		{
+			"url":"https://vmiis.github.io/online-questionnaires/signin.html"
+		}
+		,"questionnaire":
+		{
+			"url":"https://vmiis.github.io/modules/panels/questionnaire.html"
+		}
+	}
+}
