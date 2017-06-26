@@ -1,3 +1,57 @@
 {
-	"url":"https://rt.woolcock.org.au/github/woolcock-imr/Moderate-Trial/modules/control_panels/main.html"
+	"name":"Moderate Trial",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+		"sql_participant" : "---@('Study_ID')",
+		"child_configuration_url":"---https://vmiis.github.io/configurations/control_panel/rt_edc_participant_child.json"
+	},
+	"modules":
+	[
+		{
+		   "module_id" : "participant_login_setup",
+		   "table_id":"20008523",
+		   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/participant_login_setup.html"
+		}
+		,{
+		   "module_id" : "questionnaire",
+		   "url" : "https://vmiis.github.io/modules/panels/questionnaire.html"
+		}
+	]
+	,"panel" :
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name" : "Participants",
+						"modules" :
+						[
+							{
+							   "module_id" : "participant",
+							   "name" : "Participants",
+							   "table_id" : "20008522",
+							   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/participant.html",
+							   "counting":"1"
+							}
+						]
+					}
+					,{
+						"name" : "Notes",
+						"modules" :
+						[
+							{
+							   "module_id" : "notes",
+							   "name" : "All Task Notes",
+							   "table_id" : "20008525",
+							   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task_notes.html",
+							   "counting":"1"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
 }
