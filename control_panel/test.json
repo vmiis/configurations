@@ -77,14 +77,14 @@
 								"module_id" : "Adverse_Event",
 								"name" : "Adverse Event",
 								"table_id" : "20009731",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							},
 							{
 								"module_id" : "Concomitant_Medication",
 								"name" : "Concomitant Medication",
 								"table_id" : "20009732",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							}
 						]
@@ -170,7 +170,7 @@
 								"module_id" : "Baseline_KSS",
 								"name" : "Karolinska Sleepiness Scale (KSS)",
 								"table_id" : "20009740",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"quest":"1",
 								"counting":"1"
 							},
@@ -178,7 +178,7 @@
 								"module_id" : "Baseline_ISI",
 								"name" : "Insomnia Severity Index (ISI)",
 								"table_id" : "20009741",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"quest":"1",
 								"counting":"1"
 							},
@@ -186,7 +186,7 @@
 								"module_id" : "Baseline_Scoring",
 								"name" : "Scoring File upload",
 								"table_id" : "20009742",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							}
 						]
@@ -227,21 +227,21 @@
 								"module_id" : "Visit_1_KSS",
 								"name" : "Karolinska Sleepiness Scale (KSS)",
 								"table_id" : "20009746",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							},
 							{
 								"module_id" : "Visit_1_ISI",
 								"name" : "Insomnia Severity Index (ISI)",
 								"table_id" : "20009747",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							},
 							{
 								"module_id" : "Visit_1_Scoring",
 								"name" : "Scoring File upload",
 								"table_id" : "20009748",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							}
 						]
@@ -281,21 +281,21 @@
 								"module_id" : "Visit_2_KSS",
 								"name" : "Karolinska Sleepiness Scale (KSS)",
 								"table_id" : "20009752",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							},
 							{
 								"module_id" : "Visit_2_ISI",
 								"name" : "Insomnia Severity Index (ISI)",
 								"table_id" : "20009753",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							},
 							{
 								"module_id" : "Visit_2_Scoring",
 								"name" : "Scoring File upload",
 								"table_id" : "20009754",
-								"url" : "https://vmiis.github.io/modules/template/under_construction.html",
+								"url" : "https://vmiis.github.io/modules/rt_edc/task/under_construction.html",
 								"counting":"1"
 							}
 						]
