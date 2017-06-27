@@ -1,59 +1,35 @@
 {
-	"name":"Moderate Trial",
+	"name":"",
 	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
 	"parameters":{
-		"sql_participant":"@('Study_ID')",
-		"child_configuration_url":"https://vmiis.github.io/configurations/control_panel/woolcock/moderate_trial.participant_child.json"
+		"sql_participant":"@('Study_ID')"
 	},
-	"modules":
-	[
-		{
-		   "module_id" : "participant_login_setup",
-		   "table_id":"20008523",
-		   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/participant_login_setup.html"
-		}
-		,{
-		   "module_id" : "questionnaire",
-		   "url" : "https://vmiis.github.io/modules/panels/questionnaire.html"
-		}
-	]
-	,"panel" :
+	"panel":
 	{
 		"columns":
 		[
 			{
+				"hidden":"1",
 				"sections":
 				[
 					{
-						"name" : "Participants",
-						"modules" :
+						"modules":
 						[
 							{
-							   "module_id" : "participant",
-							   "name" : "Participants",
-							   "table_id" : "20008522",
-							   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/participant.html",
-							   "counting":"1"
+								"module_id" : "participant",
+								"table_id" : "20008522"
 							}
-						]
-					}
-					,{
-						"name" : "Notes",
-						"modules" :
-						[
-							{
-							   "module_id" : "task_notes",
-							   "name" : "All Task Notes",
-							   "table_id" : "20008525",
-							   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task_notes.html",
-							   "counting":"1"
+							,{
+								"module_id" : "task_notes",
+								"table_id" : "20008525",
+								"url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task_notes.html"
 							}
 						]
 					}
 				]
 			}
 			,{
-				"sections":
+				"sections" :
 				[
 					{
 						"name" : "Screening",
@@ -64,6 +40,7 @@
 							   "name" : "Telephone screen for eligibility",
 							   "table_id" : "20008536",
 							   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task/Telephone_screen_for_eligibility.html",
+							   "child":"1",
 							   "counting":"1"
 							}
 							,{
@@ -71,10 +48,9 @@
 							   "name" : "Face-to-face medical screen & consent",
 							   "table_id" : "20008537",
 							   "url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task/file_upload.html",
+							   "child":"1",
 							   "counting":"1"
 							}
-
-
 						]
 					}
 					,{
@@ -95,7 +71,7 @@
 						[
 						]
 					}
-				]
+			   ]
 			}
 			,{
 				"sections":

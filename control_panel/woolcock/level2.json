@@ -1,0 +1,56 @@
+{
+	"name":"Level 2",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name":"Modules",
+						"modules":
+						[
+
+							{
+								"module_id":"reporting_doctors",
+								"name":"Management of Reporting Doctors",
+								"table_id":"20010715",
+								"url":"https://rt.woolcock.org.au/github/woolcock-imr/operation/modules/old/level2/report/sleep_study_extension_with_year_month.html",
+								"counting":"1"
+							}
+							,{
+								"module_id":"abbreviation",
+								"name":"Abbreviation",
+								"table_id":"20010890",
+								"url":"https://vmiis.github.io/modules/woolcock/level2/abbreviation.html",
+								"counting":"1"
+							}
+						]
+					}
+					,{
+						"name":"Queries",
+						"modules":
+						[
+							{
+								"module_id":"staff",
+								"name":"Study and Staff",
+								"table_id":"400448",
+								"url":"https://vmiis.github.io/modules/woolcock/level2/sleep_study_statistics.html"
+							}
+							,{
+								"module_id":"export_reporting_doctors",
+								"name":"Query and export of reporting doctors",
+								"table_id":"20010715",
+								"url":"https://vmiis.github.io/modules/woolcock/level2/export_reporting_doctors.html"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
