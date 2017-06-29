@@ -1,0 +1,28 @@
+{
+	"name":" ",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html"
+	,"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name":"Applicant's - Job Schedules",
+						"modules":
+						[
+							{
+							   "module_id" : "a_001",
+							   "name" : "Scheduler",
+							   "table_id" : "20007387",
+							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/client/scheduler_record.html",
+							   "counting":"1"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

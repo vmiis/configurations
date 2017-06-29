@@ -1,0 +1,74 @@
+{
+	"name":" ",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+		"client_child_panel_url":"https://vmiis.github.io/configurations/control_panel/grace.child.json"
+	}
+	,"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name":"Applicant's Data Entry",
+						"modules":
+						[
+							{
+							   "module_id" : "app_001",
+							   "name" : "Data entry for indiviual applicant",
+							   "table_id" : "20003689",
+							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/client/client.html",
+							   "counting":"1"
+							}
+						]
+					}
+				]
+			}
+			,{
+				"sections":
+				[
+					{
+						"name":"Setup",
+						"modules":
+						[
+							{
+							   "module_id" : "s_001",
+							   "name" : "Job Status List",
+							   "table_id" : "20007377",
+							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/job_status_list.html",
+							   "counting":"1"
+							}
+							,{
+							   "module_id" : "s_002",
+							   "name" : "Job Type List",
+							   "table_id" : "20010733",
+							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/job_type_list.html",
+							   "counting":"1"
+							}
+							,{
+							   "module_id" : "task_list",
+							   "table_id" : "20007618",
+							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/task_list.html",
+							   "var":{"job_type_list_tid":"20010733","sql_client":"@('Applicant')"}
+							}
+							,{
+							   "module_id" : "s_004",
+							   "name":"Document Type List",
+							   "table_id" : "20007375",
+							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/document_type_list.html"
+							}
+							,{
+							   "module_id" : "s_005",
+							   "name":"Commission List",
+							   "table_id" : "20010745",
+							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/commission_list.html"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
