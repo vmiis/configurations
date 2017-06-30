@@ -1,0 +1,50 @@
+{
+	"name":"",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters" :
+	{
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name":"Calendar",
+						"modules":
+						[
+							{
+								"module_id":"daily",
+								"name":"Daily",
+								"table_id":"20004160",
+								"url":"https://vmiis.github.io/modules/tom/calendar/daily.html"
+
+							},
+							{
+								"module_id":"weekly",
+								"name":"Weekly",
+								"table_id":"20004160",
+								"url":"https://vmiis.github.io/modules/tom/calendar/weekly.html"
+							},
+							{
+								"module_id":"monthly",
+								"name":"Monthly",
+								"table_id":"20004160",
+								"url":"https://vmiis.github.io/modules/tom/calendar/monthly.html"
+							},
+							{
+								"module_id":"record",
+								"name":"Records",
+								"table_id":"20004160",
+								"url":"https://vmiis.github.io/modules/tom/calendar/record.html",
+								"counting":"1"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
