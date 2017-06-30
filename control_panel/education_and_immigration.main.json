@@ -2,7 +2,7 @@
 	"name":" ",
 	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
 	"parameters":{
-		"client_child_panel_url":"https://vmiis.github.io/configurations/control_panel/grace.child.json"
+		"client_child_panel_config_url":"https://vmiis.github.io/configurations/control_panel/education_and_immigration.child.json"
 	}
 	,"panel":
 	{
@@ -19,7 +19,7 @@
 							   "module_id" : "app_001",
 							   "name" : "Data entry for indiviual applicant",
 							   "table_id" : "20003689",
-							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/client/client.html",
+							   "url" : "https://vmiis.github.io/modules/education_and_immigration/client.html",
 							   "counting":"1"
 							}
 						]
@@ -37,33 +37,33 @@
 							   "module_id" : "s_001",
 							   "name" : "Job Status List",
 							   "table_id" : "20007377",
-							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/job_status_list.html",
+							   "url" : "https://vmiis.github.io/modules/education_and_immigration/job_status_list.html",
 							   "counting":"1"
 							}
 							,{
-							   "module_id" : "s_002",
+							   "module_id" : "job_type_list",
 							   "name" : "Job Type List",
 							   "table_id" : "20010733",
-							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/job_type_list.html",
+							   "url" : "https://vmiis.github.io/modules/education_and_immigration/job_type_list.html",
 							   "counting":"1"
 							}
 							,{
 							   "module_id" : "task_list",
 							   "table_id" : "20007618",
-							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/task_list.html",
+							   "url" : "https://vmiis.github.io/modules/education_and_immigration/task_list.html",
 							   "var":{"job_type_list_tid":"20010733","sql_client":"@('Applicant')"}
 							}
 							,{
 							   "module_id" : "s_004",
 							   "name":"Document Type List",
 							   "table_id" : "20007375",
-							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/document_type_list.html"
+							   "url" : "https://vmiis.github.io/modules/education_and_immigration/document_type_list.html"
 							}
 							,{
 							   "module_id" : "s_005",
 							   "name":"Commission List",
 							   "table_id" : "20010745",
-							   "url" : "https://cbs.wappsystem.com/dev/github/wappsystem/grace-he-i/modules/setup/commission_list.html"
+							   "url" : "https://vmiis.github.io/modules/education_and_immigration/commission_list.html"
 							}
 						]
 					}
