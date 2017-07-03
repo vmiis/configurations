@@ -81,6 +81,20 @@
 						"name" : "Week -2",
 						"modules" :
 						[
+							{
+								"module_id" : "_w2_001",
+								"name" : "Wrist actigraphy",
+								"table_id" : "20008576",
+								"url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task/under_construction.html",
+								"quest":"1",
+								"counting":"1",
+								"form_module":"_w2_001_form"
+							},
+							{
+								"module_id" : "_w2_001_form",
+								"table_id" : "20008576",
+								"url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task/under_construction.form.html"
+							}
 						]
 					}
 					,{
@@ -104,6 +118,20 @@
 						"name" : "Week 1",
 						"modules" :
 						[
+							{
+								"module_id" : "w2_ISI",
+								"name" : "Insomnia Severity Index",
+								"table_id" : "20008570",
+								"url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task/Insomnia_Severity_Index.html",
+								"quest":"1",
+								"counting":"1",
+								"form_module":"w1_ISI_form"
+							},
+							{
+								"module_id" : "w1_ISI_form",
+								"table_id" : "20008570",
+								"url" : "https://vmiis.github.io/modules/woolcock/moderate_trial/task/Insomnia_Severity_Index.form.html"
+							}
 						]
 					}
 					,{
