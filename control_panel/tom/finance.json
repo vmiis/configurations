@@ -31,6 +31,11 @@
 								"counting":"1"
 							},
 							{
+							   "module_id" : "bi_processing_details",
+							   "table_id" : "20010376",
+							   "url" : "https://vmiis.github.io/modules/transaction_bookkeeping/income_and_expense_bookkeeping_bi_details.html"
+						    },
+							{
 								"module_id":"w_credit_query",
 								"name":"Credit Query",
 								"table_id":"20010376",
